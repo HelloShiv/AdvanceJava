@@ -1,8 +1,8 @@
 # JDBC Connection Guide
-![Alt text](image.png)
+![Alt text](./images/image.png)
 
 
-![Alt text](image-1.png)  
+![Alt text](./images/image-1.png)  
 
 # Statement
 ```java
@@ -31,8 +31,7 @@ ResultSet resultSet = callableStatement.executeQuery();
 ```
 
 ### In PreparedStatement we need to pass the query that time only , not like Statement 
-![Alt text](image-2.png)
-
+![Alt text](./images/image-2.png)
 
 # :star:Remember this :star:
  ```java 

@@ -3,3 +3,5 @@ Factory methods are a design pattern in object-oriented programming where a meth
 
 # Instance Methods:
 Instance methods,  are methods that are associated with instances (objects) of a class. These methods operate on the instance variables of the class and are called on specific objects created from that class. 
+
+![Alt text](image.png)

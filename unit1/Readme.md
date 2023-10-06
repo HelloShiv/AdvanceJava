@@ -37,3 +37,14 @@ ResultSet resultSet = callableStatement.executeQuery();
  ```java 
  PreparedStatement ptmt = con.prepareStatement(q);
  ```
+
+```mysql
+UPDATE employees
+SET salary = 50000
+WHERE department = 'Sales';
+
+DELETE FROM customers
+WHERE last_purchase_date < '2022-01-01';
+
+
+```

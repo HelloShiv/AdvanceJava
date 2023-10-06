@@ -1,15 +1,12 @@
-import java.io.*;    
-import java.net.*;    
-public class urlConnection {    
-public static void main(String[] args){    
-try{    
-URL url=new URL("http://www.javatpoint.com/java-tutorial");    
-URLConnection urlcon=url.openConnection();    
-InputStream stream=urlcon.getInputStream();    
-int i;    
-while((i=stream.read())!=-1){    
-System.out.print((char)i);    
-}    
-}catch(Exception e){System.out.println(e);}    
-}    
-}    
+import java.net.URL;
+import java.net.URLConnection;
+
+public class urlConnection {
+    public static void main(String[] args) throws Exception {
+        URL url = new URL("https://example.com/path/to/your/file.txt");
+        URLConnection connection = url.openConnection();
+        long lastModified = connection.getLastModified();
+
+        
+    }
+}

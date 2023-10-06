@@ -6,7 +6,7 @@ public class urlConnection {
         URL url = new URL("https://example.com/path/to/your/file.txt");
         URLConnection connection = url.openConnection();
         long lastModified = connection.getLastModified();
-
+        System.out.println(connection.getDate());
         
     }
 }

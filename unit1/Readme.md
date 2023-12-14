@@ -46,5 +46,11 @@ WHERE department = 'Sales';
 DELETE FROM customers
 WHERE last_purchase_date < '2022-01-01';
 
+```
 
+# mysql create user
+``` mysql
+Create user 'new_username'@'localhost' identified by 'new_password';
+grant all privilelges on your_database.* to 'new_username'@'localhost';
+show variables like 'port';
 ```
